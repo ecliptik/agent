@@ -1,4 +1,4 @@
-FROM rancher/agent-base:v0.3.0
+FROM ecliptik/agent-base:armhf-3.0
 ARG IMAGE
 COPY register.py resolve_url.py run.sh /
 ENTRYPOINT ["/run.sh"]
